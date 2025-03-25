@@ -8,9 +8,10 @@ pipeline {
             }
         }
         stage('push') {
-            steps {
+            steps whithcredentials([usernamepassword(credentials
+            id: 'ff1d2baa-e53b-4062-b027-d93be01063f4', passwordvariable: 'DOCKERHUB_PASSWORD')]) { 
                 echo 'Pushing the image to dockerhub...'
-                sh 'docker login -u whydude230 -p 123456789@Test'
+                sh 'docker login -u whydude230 -p $DOCKERHUB_PASSWORD'
                 sh 'docker push whydude230/demo_app'
             }
         }
