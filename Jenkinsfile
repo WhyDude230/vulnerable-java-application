@@ -8,7 +8,7 @@ pipeline {
             }
         }
         stage('push') {
-            envireonment {
+            environment {
                 DOCKERHUB = credentials("ff1d2baa-e53b-4062-b027-d93be01063f4")
             }
             steps {
