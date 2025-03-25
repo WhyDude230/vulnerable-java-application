@@ -10,7 +10,7 @@ pipeline {
         stage('deploy') {
             steps {
                 echo 'Running the app...'
-                sh 'docker run -it --rm -p 8000:8000 --name demo_app demo_app'
+                sh 'docker run --rm -p 8000:8000 --name demo_app demo_app'
             }
         }
       
