@@ -13,7 +13,7 @@ pipeline {
             }
             steps {
                 echo 'Pushing the image to dockerhub...'
-                sh 'docker login -u whydude230 -p DOCKERHUB_PSW'
+                sh 'docker login -u whydude230 -p 123456789@Test'
                 sh 'docker push whydude230/demo_app'
             }
         }
