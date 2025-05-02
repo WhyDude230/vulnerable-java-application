@@ -1,4 +1,5 @@
 plugins {
+    id "org.sonarqube" version "6.0.1.5171"
     id 'java'
     id 'org.springframework.boot' version '3.2.5'
     id 'io.spring.dependency-management' version '1.1.4'
@@ -16,6 +17,8 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.dom4j:dom4j:2.1.4'         // core XML parsing :contentReference[oaicite:0]{index=0}
+    implementation 'jaxen:jaxen:1.2.0'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
