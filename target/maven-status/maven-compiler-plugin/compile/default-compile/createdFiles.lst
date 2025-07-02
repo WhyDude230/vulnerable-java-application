@@ -1,0 +1,14 @@
+com/datadoghq/workshops/samplevulnerablejavaapp/exception/InvalidDomainException.class
+com/datadoghq/workshops/samplevulnerablejavaapp/controller/MainController.class
+com/datadoghq/workshops/samplevulnerablejavaapp/service/DomainTestService.class
+com/datadoghq/workshops/samplevulnerablejavaapp/SampleVulnerableJavaAppApplication.class
+com/datadoghq/workshops/samplevulnerablejavaapp/exception/UnableToTestDomainException.class
+com/datadoghq/workshops/samplevulnerablejavaapp/exception/FileForbiddenFileException.class
+com/datadoghq/workshops/samplevulnerablejavaapp/exception/FileReadException.class
+com/datadoghq/workshops/samplevulnerablejavaapp/exception/DomainTestException.class
+com/datadoghq/workshops/samplevulnerablejavaapp/http/DomainTestRequest.class
+com/datadoghq/workshops/samplevulnerablejavaapp/http/ViewFileRequest.class
+com/datadoghq/workshops/samplevulnerablejavaapp/service/WebsiteTestService.class
+com/datadoghq/workshops/samplevulnerablejavaapp/http/WebsiteTestRequest.class
+com/datadoghq/workshops/samplevulnerablejavaapp/AppConfig.class
+com/datadoghq/workshops/samplevulnerablejavaapp/service/FileService.class
